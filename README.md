@@ -29,3 +29,5 @@ This application has code that is not complete. When a city is searched, the wea
 ## Mock-up Example
 
 ![Alt text](<assets/image/Screenshot 2024-03-16 at 6.12.10 PM.png>)
+
+## Deployment
