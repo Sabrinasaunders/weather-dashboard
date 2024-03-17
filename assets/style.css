@@ -1,0 +1,10 @@
+#header {
+    color: white;
+    background: linear-gradient(#f35fc7, #f36811);
+}
+
+#header h1 {
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+}
