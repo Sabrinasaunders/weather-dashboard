@@ -3,7 +3,7 @@
 const APIKey = "02410c6019a515031add5849bb5eece6";
 
     var getConditions = (event) => {
-         // Obtain city name from the search box
+         // city name from the search box
     let city = $('#search-city').val();
     currentCity = $('#search-city').val();
     //get request from open weather api
@@ -13,10 +13,10 @@ const APIKey = "02410c6019a515031add5849bb5eece6";
         .then((response) => {
             // Save city to local storage
         saveCity(city);
-        // Create icon for the current weather using Open Weather Maps
+        // icon for the current weather using Open Weather Maps
         let currentWeatherIcon="https://openweathermap.org/img/w/" + response.weather[0].icon + ".png";
         
-// HTML for the results of search
+// HTML for the search results
 let currentWeatherHTML = `
 <h3>${response.name} ${currentMoment.format("(MM/DD/YY)")}<img src="${currentWeatherIcon}"></h3>
 <ul class="list-unstyled">
